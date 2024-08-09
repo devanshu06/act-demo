@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # or the branch you want to trigger this workflow on
+  workflow_dispatch:
 
 env:
   DOCKER_IMAGE_NAME: dev06/act-demo  # Set your Docker image name here
